@@ -30,7 +30,7 @@ class solution:
             for j in range(N,i,-1):
                 print(N-j+1, end=" ")
             print()    
-        def pattern7(self, N):
+    def pattern7(self, N):
         for i in range(N):
             for j in range(N-1-i):
                 print(" ", end="")
