@@ -67,6 +67,16 @@ class solution:
             for j in range(i):
                 print(" ", end="")
             print()
+    def pattern11(self, N):
+        for i in range(N):
+            if i%2==0:
+                start=0
+            else:
+                start=1
+            for j in range(1+1):
+                start=1-start
+                print(start, end=" ")
+            print("")
 
 
 if __name__=="__main__":
